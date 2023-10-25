@@ -1,12 +1,12 @@
 {
-  "name": "pc_builder_backend_prisma_and_postgresql",
+  "name": "doctors-portal-backend-with-prisma-and-postgresql",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node dist/server.js",
-    "dev" : "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build" : "tsc",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
     "lint:check": "eslint --ignore-path .eslintignore --ext .js,.ts .",
     "lint:fix": "eslint . --fix",
     "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
@@ -38,6 +38,7 @@
     "express": "^4.18.2",
     "http-status": "^1.6.2",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3"
+    "lint-staged": "^13.2.3",
+    "prisma": "^5.5.0"
   }
 }
